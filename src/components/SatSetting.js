@@ -113,7 +113,7 @@ class SatSettingForm extends Component {
     }
 }
 
-const SatSetting1 = Form.create({name: 'satellite-setting'})(SatSettingForm)
+const SatSetting = Form.create({name: 'satellite-setting'})(SatSettingForm)
 
-export default SatSetting1;
+export default SatSetting;
 
