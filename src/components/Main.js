@@ -3,6 +3,7 @@ import { Row, Col } from 'antd';
 import axios from 'axios';
 import SatSetting from './SatSetting';
 import SatelliteList from './SatelliteList';
+import WorldMap from './WorldMap';
 import {NEARBY_SATELLITE, SAT_API_KEY, STARLINK_CATEGORY} from "../constants";
 
 class Main extends Component {
